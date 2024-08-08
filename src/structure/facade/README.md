@@ -2,7 +2,7 @@
 
 ファイルシステムの操作と簡単な計算を行うシステムを想定し、それらをfacadeパターンでまとめます。
 
-# 入力パラメータ
+## 入力パラメータ
 
 プログラムは以下の入力パラメータを受け付けます：
 
@@ -10,13 +10,15 @@
 | --- | --- | --- | --- | --- |
 | `file` | `--file` | str | NO  | 操作対象となるファイル名 |
 | `content` | `--content` | str | YES | 計算対象となる文章 |
+| `is-write` | `--is-write` | bool | NO | レポートの保存有無 |
 
-# 使用例
+## 使用例
 
 ```python
  poetry run python src/structure/facade/client.py
  --file "a.txt"
  --content "hello, world."
+ --is-write False
 ```
 
 ## 共有事項
