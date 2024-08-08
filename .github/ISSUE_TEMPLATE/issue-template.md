@@ -4,26 +4,18 @@ about: Here is a template for creating an issue in pj_study
 title: ''
 labels: ''
 assignees: ''
-
 ---
 
-// Template name
-issue template
+## 概要
+<!-- 作成する課題の概要を簡単に説明してください -->
+例：ヘッダーのスタイルを調整したい
 
-// About 
-Here is a template for creating an issue
+## 目的
+<!-- この課題の目的を記述してください -->
+例：ウェブサイトの見た目を改善するため
 
-// Template content
-## Overview
-Please provide an overview of the issue you are creating.
-ex) I want to adapt the style of the header.
-
-## Purpose
-Describe the purpose of this issue
-ex) To style it.
-
-## Task
-Break down and manage your tasks.
-- [ ] XXXX
-- [ ] XXXX
-- [ ] XXXX
+## タスク
+<!-- 課題を達成するために必要なタスクを列挙してください -->
+- [ ] タスク1
+- [ ] タスク2
+- [ ] タスク3
