@@ -57,6 +57,8 @@ classDiagram
 * 出力
 
 ```sh
+Sending email to user@sample.com: <html><body><b>これはHTMLメールです</b></body></html>
+Sending sms to +123456789: これはテキストSMSです
 ```
 
 ## 共有事項
