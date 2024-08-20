@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "design-pattern"
+version = "0.1.0"
+description = ""
+authors = ["KoseiN38 <kooose0308@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+isort = "^5.13.2"
+black = "^24.8.0"
+ruff = "^0.5.6"
+pandas = "^2.2.2"
+numpy = "^2.0.1"
+matplotlib = "^3.9.1.post1"
+pillow = "^10.4.0"
+pytest = "^8.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
