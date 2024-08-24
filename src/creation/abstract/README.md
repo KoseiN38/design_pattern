@@ -65,12 +65,31 @@ classDiagram
 
 ```python
  poetry run python src/creation/abstract/main.py
- --file "data.csv"
+ --file '["test.csv", "test.txt"]'
 ```
 
 * 出力
 
 ```sh
+INFO:root:mainが呼び出されました。引数: (['product.csv', 'test_file.txt'],), キーワード引数: {}
+2024-08-24 11:52:55,460 - MyLogger - INFO - Opened CSV file: data/product.csv
+INFO:MyLogger:Opened CSV file: data/product.csv
+2024-08-24 11:52:55,460 - MyLogger - INFO -    id    item  price
+0   0   apple    100
+1   1  banana    200
+2   2  orange    110
+3   3    gine    140
+INFO:MyLogger:   id    item  price
+0   0   apple    100
+1   1  banana    200
+2   2  orange    110
+3   3    gine    140
+2024-08-24 11:52:55,466 - MyLogger - INFO - Opened text file: data/test_file.txt
+INFO:MyLogger:Opened text file: data/test_file.txt
+2024-08-24 11:52:55,467 - MyLogger - INFO - "hello world."
+INFO:MyLogger:"hello world."
+INFO:root:mainが終了しました。戻り値: None
+mainの実行時間: 0.0087秒
 ```
 
 ## 共有事項
