@@ -1,17 +1,8 @@
 # 概要
 
-デザインパターンの概要を記載します
+オブジェクトクラスのインターフェースを定義して、具体的なクラスのインスタンスをどのクラスにするかはサブクラスで定義する.
 
-デザインパターンを駆使した実装例の説明をします
-
-
-## 入力パラメータ
-
-プログラムは以下の入力パラメータを受け付けます：
-
-| 引数名 | 物理名 | 型 | 必須 | 説明 |
-| --- | --- | --- | --- | --- |
-| `params` | `--params` | str | YES  | 入力パラメータ |
+この例では、異なる種類のグラフ（折線グラフ、棒グラフ、円グラフ）を作成するファクトリーを実装します。
 
 ## ダイアグラム図
 
@@ -66,13 +57,21 @@ classDiagram
 * 入力
 
 ```python
- poetry run python src/sample.py
- --text "hello, world."
+ poetry run python src/main.py
 ```
 
 * 出力
 
 ```sh
+plotの実行時間: 0.0243秒
+saveの実行時間: 0.1323秒
+2024-09-06 10:54:44,397 - MyLogger - INFO - Graph saved as data/advanced_line_graph.png
+plotの実行時間: 0.0138秒
+saveの実行時間: 0.1341秒
+2024-09-06 10:54:44,563 - MyLogger - INFO - Graph saved as data/advanced_bar_graph.png
+plotの実行時間: 0.0107秒
+saveの実行時間: 0.1235秒
+2024-09-06 10:54:44,716 - MyLogger - INFO - Graph saved as data/advanced_pie_chart.png
 ```
 
 ## 共有事項
