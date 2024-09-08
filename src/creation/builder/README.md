@@ -68,6 +68,8 @@ classDiagram
 * 出力
 
 ```sh
+2024-09-08 22:21:42,154 - MyLogger - INFO - Pizza(size=10,is_cheeze=True,toppings=['バジル', 'モッツァレラチーズ'])
+2024-09-08 22:21:42,154 - MyLogger - INFO - Pizza(size=8,is_cheeze=False,toppings=['ペパロニ、チーズ'])
 ```
 
 ## 共有事項
