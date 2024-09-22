@@ -1,0 +1,5 @@
+# 許可された認証情報を定義する
+AUTH_USERNAME = "admin"
+AUTH_PASSWORD = "password"
+ALLOW_LENGTH_USERNAME = 3
+ALLOW_LENGTH_PASSWORD = 3
